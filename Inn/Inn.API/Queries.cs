@@ -7,6 +7,7 @@ namespace Projeto_42.Inn.Inn.API
 {
     interface Queries<T>
     {
+        string connectionString;
         void insert();
         T selectAll();
         void delete();
